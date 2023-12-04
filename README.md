@@ -84,3 +84,7 @@ by running
 ```
 msbuild xfsc.sln /p:Configuration=Release
 ```
+
+Might need to add:
+
+Defining WINDOWS_IGNORE_PACKING_MISMATCH in Property Pages -> C/C++ -> Preprocessor -> Add to Preprocessor Definitions. Use a semicolon to separate definitions.
